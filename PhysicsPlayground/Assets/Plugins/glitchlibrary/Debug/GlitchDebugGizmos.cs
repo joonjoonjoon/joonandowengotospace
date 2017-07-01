@@ -7,9 +7,7 @@ public class GlitchDebugGizmos : MonoBehaviour {
     public bool showWireSphere;
     public Color color = Color.green;
     public float scale=0.1f;
-
-
-    /*
+    
     void OnDrawGizmos()
     {
         Gizmos.color = color;
@@ -17,5 +15,4 @@ public class GlitchDebugGizmos : MonoBehaviour {
         if (showWireSphere) Gizmos.DrawWireSphere(transform.position, scale);
 
     }
-    */
 }
